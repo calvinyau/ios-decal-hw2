@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; settings = {ASSET_TAGS = (); }; };
+		2CEA91D61C7440D50078796E /* myKeyboard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA91D51C7440D50078796E /* myKeyboard.xcassets */; };
+		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; };
 		3AAA639A1BA9263900E3822E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63991BA9263900E3822E /* AppDelegate.swift */; };
 		3AAA639C1BA9263900E3822E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA639B1BA9263900E3822E /* ViewController.swift */; };
 		3AAA639F1BA9263900E3822E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA639D1BA9263900E3822E /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2CEA91D51C7440D50078796E /* myKeyboard.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = myKeyboard.xcassets; sourceTree = "<group>"; };
 		3A5554491BA930D800AF502F /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
 		3AAA63961BA9263900E3822E /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63991BA9263900E3822E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
+				2CEA91D51C7440D50078796E /* myKeyboard.xcassets */,
 			);
 			path = CalKeyboard;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEA91D61C7440D50078796E /* myKeyboard.xcassets in Resources */,
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

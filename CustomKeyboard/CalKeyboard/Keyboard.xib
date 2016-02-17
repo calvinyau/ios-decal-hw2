@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="CalKeyboard" customModuleProvider="target">
             <connections>
-                <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="CWQ-gG-G2m"/>
+                <outlet property="ahhButton" destination="544-Pt-sE7" id="EfU-11-gcF"/>
+                <outlet property="canYouNotButton" destination="hHc-un-7KU" id="ITE-VP-afY"/>
+                <outlet property="deleteButton" destination="npG-Fp-Msm" id="9S0-Ei-v1B"/>
+                <outlet property="dontHateThePlayaButton" destination="LIA-z8-xph" id="25O-82-9Cn"/>
+                <outlet property="justNoButton" destination="4cU-3Z-9UC" id="RGK-Ad-0FN"/>
+                <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="jRV-HQ-Bjc"/>
+                <outlet property="ohBabyButton" destination="Qlx-oz-Cjf" id="yuK-9w-4ef"/>
+                <outlet property="ohYeahButton" destination="kJR-aQ-sSz" id="gDd-rU-rYe"/>
+                <outlet property="omgButton" destination="Bza-me-mRV" id="nEH-ZB-eJU"/>
+                <outlet property="returnButton" destination="klj-kJ-3L4" id="eOn-6H-WIn"/>
+                <outlet property="surprisedButton" destination="GRr-cP-93j" id="YE8-ka-vHs"/>
+                <outlet property="wassupButton" destination="r07-cz-UNd" id="oyb-4g-T8W"/>
+                <outlet property="whatButton" destination="RzS-7D-9M5" id="lcx-KB-hXb"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -19,8 +31,57 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="30" id="eu0-xj-Jov"/>
                         <constraint firstAttribute="height" constant="30" id="rFT-bm-aBM"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="rdL-wp-Vo0"/>
                     </constraints>
                     <state key="normal" title="N"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJR-aQ-sSz">
+                    <rect key="frame" x="10" y="81" width="65" height="65"/>
+                    <state key="normal" backgroundImage="ohyeah"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHc-un-7KU">
+                    <rect key="frame" x="83" y="8" width="65" height="65"/>
+                    <state key="normal" backgroundImage="canyounot"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-me-mRV">
+                    <rect key="frame" x="83" y="81" width="65" height="65"/>
+                    <state key="normal" backgroundImage="omg"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIA-z8-xph">
+                    <rect key="frame" x="156" y="8" width="65" height="65"/>
+                    <state key="normal" backgroundImage="donthatetheplaya"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRr-cP-93j">
+                    <rect key="frame" x="156" y="81" width="65" height="65"/>
+                    <state key="normal" backgroundImage="surprised"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cU-3Z-9UC">
+                    <rect key="frame" x="229" y="8" width="65" height="65"/>
+                    <state key="normal" backgroundImage="no"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r07-cz-UNd">
+                    <rect key="frame" x="229" y="81" width="65" height="65"/>
+                    <state key="normal" backgroundImage="wassup"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qlx-oz-Cjf">
+                    <rect key="frame" x="302" y="8" width="65" height="65"/>
+                    <state key="normal" backgroundImage="ohbaby"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzS-7D-9M5">
+                    <rect key="frame" x="302" y="81" width="65" height="65"/>
+                    <state key="normal" backgroundImage="what?"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klj-kJ-3L4">
+                    <rect key="frame" x="321" y="162" width="46" height="30"/>
+                    <state key="normal" title="return"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npG-Fp-Msm">
+                    <rect key="frame" x="267" y="162" width="46" height="30"/>
+                    <state key="normal" title="delete"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="544-Pt-sE7">
+                    <rect key="frame" x="8" y="8" width="65" height="65"/>
+                    <state key="normal" backgroundImage="ahhh"/>
                 </button>
             </subviews>
             <constraints>
@@ -29,7 +90,25 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="605.5" y="542"/>
+            <point key="canvasLocation" x="578.5" y="510"/>
         </view>
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZjG-2t-ptG">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <state key="normal" title="delete"/>
+            <point key="canvasLocation" x="738" y="627"/>
+        </button>
     </objects>
+    <resources>
+        <image name="ahhh" width="500" height="375"/>
+        <image name="canyounot" width="480" height="360"/>
+        <image name="donthatetheplaya" width="420" height="432"/>
+        <image name="no" width="640" height="480"/>
+        <image name="ohbaby" width="500" height="375"/>
+        <image name="ohyeah" width="480" height="360"/>
+        <image name="omg" width="670" height="502"/>
+        <image name="surprised" width="418" height="384"/>
+        <image name="wassup" width="410" height="230"/>
+        <image name="what?" width="500" height="378"/>
+    </resources>
 </document>
