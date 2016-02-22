@@ -120,7 +120,7 @@ class KeyboardViewController: UIInputViewController {
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
         returnButton.addTarget(self, action: "returnButtonFunction", forControlEvents: .TouchUpInside)
         deleteButton.addTarget(self, action: "deleteButtonFunction", forControlEvents: .TouchUpInside)
-        ahhButton.addTarget(self, action: "ahhFunction", forControlEvents: .TouchUpInside)
+        ahhButton.addTarget(self, action: "ahhButtonFunction", forControlEvents: .TouchUpInside)
         canYouNotButton.addTarget(self, action: "canYouNotButtonFunction", forControlEvents: .TouchUpInside)
         dontHateThePlayaButton.addTarget(self, action: "dontHateThePlayaButtonFunction", forControlEvents: .TouchUpInside)
         justNoButton.addTarget(self, action: "justNoButtonFunction", forControlEvents: .TouchUpInside)
